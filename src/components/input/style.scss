@@ -1,0 +1,31 @@
+.input-form-wrapper{
+  position: relative;
+  .icon-eye{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+  }
+  .input-form{
+    background: transparent;
+    border: 1px solid rgb(194, 192, 192);
+    padding: 15px 20px;
+    color: rgb(38, 41, 51);
+    border-radius: 2px;
+    width: -webkit-fill-available;
+    &:focus{
+      outline: none;
+      border-color: #62A3E6;
+    }
+  }
+  .master-card-logo{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    border-radius: 5px;
+  }
+
+}

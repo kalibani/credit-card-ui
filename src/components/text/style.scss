@@ -1,0 +1,20 @@
+.text{
+  color: white;
+  opacity: .6;
+  font-size: .8rem;
+  &.default{
+    margin-bottom: 5px;
+  }
+  &.card-number{
+    opacity: 1;
+    font-weight: 600;
+    font-size: 1.5rem;
+    word-spacing: 10px;
+  }
+  &.card-name{
+    opacity: 1;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,36 @@
+.card-back{
+  width: 350px;
+  height: 200px;
+  background-color: rgb(149, 153, 160);
+  border-radius: 20px;
+  position: relative;
+  padding: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  -webkit-box-shadow: 9px 7px 18px -3px rgba(28,48,68,0.56); 
+  box-shadow: 9px 7px 18px -3px rgba(28,48,68,0.56);
+  &__strip{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(226, 229, 236);
+    display: flex;
+    align-items: center;
+    span{
+      margin-left: 10px;
+    }
+  }
+  &__dots{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 0 20px;
+    div{
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background-color: rgb(226, 229, 236);
+    }
+  }
+}
