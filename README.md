@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## file with name object-immutable-v1 / object-immutable-v1 are containing async series & parallel function.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
